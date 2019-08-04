@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"/>
+    <link rel="stylesheet" href="css/mystyle.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"></script>
+    <script src="js/myscript.js"></script>
+    <title>Projeto 52</title>
+<body>
+    <div id="serch">
+        <form id="form">
+            <div>
+                <label for="search">ISBN</label>
+                <input type="search" id="ISBN">
+            </div>
+            <button class="button">Pesuisar</button>
+        </form>
+    </div >
+    <div>
+        <table id="result">
+        </table>
+    </div>
+</body>
+</head>
+</html>
